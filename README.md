@@ -1,5 +1,8 @@
 # 🚀 LocalStack - AWS Labs
 
+![LocalStack](https://img.shields.io/static/v1?label=Works&message=@LocalStack&color=purple)
+![AWS](https://img.shields.io/static/v1?label=Works&message=@AWS&color=orange)
+
 This repository provides a **Docker Compose** setup to run **LocalStack** in a container. It is intended as a learning resource for testing and experimenting with AWS services locally.
 
 ## 🔗 Repository
