@@ -2,6 +2,9 @@
 .local
 *.local
 
+# MacOS
+**/.DS_Store
+
 # Volume LocalStack Container
 volume
 
