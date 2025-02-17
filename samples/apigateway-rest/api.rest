@@ -1,0 +1,15 @@
+## vars
+# aws --endpoint-url=http://localhost:4566 apigateway get-rest-apis | jq -r '.items[0].id'
+@API_ID = PLACEHOLDER_ID
+
+### Get endpoint /livez
+GET http://{{API_ID}}.execute-api.localhost.localstack.cloud:4566/dev/_user_request_/livez
+
+### Get endpoint /readyz
+GET http://{{API_ID}}.execute-api.localhost.localstack.cloud:4566/dev/_user_request_/readyz
+
+### Get endpoint /livez
+GET http://{{API_ID}}.execute-api.localhost.localstack.cloud:4566/dev/livez
+
+### Get endpoint /readyz
+GET http://{{API_ID}}.execute-api.localhost.localstack.cloud:4566/dev/livez
